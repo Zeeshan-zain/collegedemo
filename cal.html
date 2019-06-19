@@ -1,0 +1,57 @@
+<html>
+	<head>
+			<link rel="stylesheet" type="text/css" href="cal1.css">
+	</head>
+	<body>
+		<div class="div">
+		<h1 class="comp">SCMZ&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp 12 Digit</h1>
+					<form name="calculator">
+				<table class="button">
+					<tr>
+						<td colspan="5"><input type="text" name="display"  id="display" disabled  maxlength="6"></td>
+					</tr>
+					<tr>
+			<td colspan="3"><input type="button" id="data3"> </td>
+						<td><input type="button" id="data2"  name="tax-" value="TAX-" ></td>
+						<td><input type="button" id="data2"   name="tax+" value="TAX+" ></td>
+					</tr>
+					<tr>
+						<td><input type="button"  name="on" value="ON"></td>
+						<td><input type="button"  name="MR" value="MR"></td>
+						<td><input type="button" name="m-" value="M-"></td>
+						<td><input type="button" name="plus" value="M+"></td>
+						<td><input type="button" name="div" onclick="GetOperator('/')" value="/" ></td>
+					</tr>
+					<tr>
+						<td><input type="button"  name="per" value="%" ></td>
+						<td><input type="button"  name="seven" onclick="GetValue(7);" value="7"></td>
+						<td><input type="button"  name="eight" onclick="GetValue(8);"value="8" ></td>
+						<td><input type="button"  name="nine" onclick="GetValue(9);" value="9" ></td>
+						<td><input type="button" name="mul" onclick="GetOperator('*')"value="x" ></td>
+					</tr>
+					<tr>
+						<td><input type="button" name="com" value="+/-"></td>
+						<td><input type="button" name="four" onclick="GetValue(4);" value="4"></td>
+						<td><input type="button" name="five" onclick="GetValue(5);" value="5"></td>
+						<td><input type="button" name="six" onclick="GetValue(6);" value="6" ></td>
+						<td><input type="button" name="minus" onclick="GetOperator('-')" value="-" ></td>
+					</tr>
+					<tr>
+						<td><input type="button" id="clear" name="clear" onclick="clearId('');" value="C" ></td>
+						<td><input type="button" name="one" value="1" onclick="GetValue(1);"></td>
+						<td><input type="button" name="two" onclick="GetValue(2);"value="2" ></td>
+						<td><input type="button" name="three" onclick="GetValue(3);"value="3"></td>
+			<td rowspan="2"><input type="button" id="data1"  name="plus" onclick="GetOperator('+')" value="+" ></td>
+					</tr>	
+					<tr>
+						<td><input type="button" id="clear" name="on" value="AC" ></td>
+						<td><input type="button" name="zero" onclick="GetValue(0);" value="0"></td>
+						<td><input type="button" name="dot" onclick="Getdecim();" value="." ></td>
+						<td><input type="button" name="equal" value="=" onclick="EqualTo()"></td>
+					</tr>	
+				</table>
+			</form>
+		</div>
+	</body>
+	<script src="cal.js" type="text/javascript"></script>
+</html>

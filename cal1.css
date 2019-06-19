@@ -1,0 +1,69 @@
+  h1{
+   padding:0px;
+   margin:0px;}
+  .div{
+		margin:100px 350px;
+		border:2px solid black;
+		box-shadow:black;
+		width:360px;
+		padding:10px;
+		border-radius:25px;
+		background-color:#880909;
+		}
+	.comp{
+	  padding:3px;
+	  color:silver;
+	  margin:5px;
+	  }
+   #display{
+		background-color:green;
+		height:80px;
+		width:350px;
+		font-size:40px;
+		color:black;
+		 border-radius:25px;
+		 text-align:right;
+		 padding-right:15px;
+		}
+	.button tr td input{
+		height:50px;
+		width:55px;
+		font-size:25px;
+		font-weight:bold;
+		margin:3px;
+		border-radius:15px 25px ;
+		cursor:pointer;
+		}
+	.button tr td input:hover{
+		background-color:red;
+		}
+	#data1{
+		height:110px;
+		width:55px;
+		font-size:25px;
+		font-weight:bold;
+		margin:3px;
+		 border-radius:15px 25px ;
+		 cursor:pointer;
+	  }
+	#data2{
+		height:50px;
+		width:55px;
+		font-size:15px;
+		font-weight:bold;
+		margin:3px;
+		border-radius:15px 25px ;
+		cursor:pointer;
+		}
+	#data3{
+		height:50px;
+		width:150px;
+		font-size:15px;
+		font-weight:bold;
+		margin-left:30px;
+		border-radius:10px;
+		background-color:#222;
+		cursor:pointer;
+		}
+		
+		
